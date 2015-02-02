@@ -2,11 +2,168 @@
 <html>
   <head>
       <meta charset="UTF-8"/>
-      <title> Hello, world! </title>
+      <title> Molly Peot </title>
   </head>
-
-
   <body>
-      <h1> Hello, world! </h1>
+      <h1> Molly Peot </h1>
+
+        <p> This is my web site. </p>
+
+      <h2> Emphasis </h2>
+
+        <p> There are two ways to accentuate important content: <em> emphasis </em> and <strong> strong emphasis </strong>. </p>
+
+      <h2> Subscript &amp; Superscript </h2>
+
+      <h3> Subscript </h3>
+
+        <p> Water is H <sub> 2 </sub> 0. </p>
+
+      <h3 Superscript </h3>
+
+        <p> Solve for x: 2<sup>x</sub> = 8 </p>
+
+      <h2> Lists </h2>
+
+      <h3> Ordered List </h3>
+
+        <ol>
+          <li> Canes </li>
+          <li> Gators </li>
+          <li> Noles </li>
+        </ol>
+
+      <h3> Unordered List </h3>
+
+        <ul>
+          <li> Canes </li>
+          <li> Gators </li>
+          <li> Noles </li>
+        </ul>
+
+      <h3> Definition List </h3>
+
+        <dl>
+          <dt> HTML </dt>
+            <dd> Hypertext Markup Language </dd>
+          <dt> URL </dt>
+            <dd> Uniform Resource Locator </dd>
+        </dl>
+
+      <h2> Abbreviations </h2>
+
+        <p> Sir Tim Berners-Lee invented the <abbr title="World Wide Web"> WWW </abbr> and introduced concepts such as <abbr title="Hypertext Markup Language"> HTML </abbr>, <abbr title="Hypertext Transfer Protocol"> HTTP </abbr> and the <abbr title="Uniform Resource Locator"> URL </abbr>. </p>
+
+      <h2> Quotes </h2>
+
+        <blockquote cite="http://miami.edu">
+        "Go C-A-N-E-S! Canes!" &mdash; Sebastian the Ibis
+        </blockquote>
+
+        <p> Sebastian the Ibis says, <q cite="http://miami.edu">Go    C-A-N-E-S! Canes!</q> </p>
+
+      <h2>Highlighting</h2>
+
+        <p>Sebastian the Ibis is a student at <mark>University of Miami</mark>.</p>
+
+      <h2>Address</h2>
+
+        <address>
+          Sebastian the Ibis <br/>
+          University of Miami <br/>
+          sebastian.ibis@miami.edu
+        </address>
+
+      <h2>Insert and Delete</h2>
+
+        <p><del>Florida State University</del> <ins>University of Miami</ins> has won more meetings in the Hurricanes-Seminoles football rivalry.</p>
+
+      <h2>Small Text</h2>
+
+        <p>University of Miami</p>
+        <p><small>Copyright &copy; 2015.</small></p>
+
+      <h2>Code</h2>
+
+        <p>A simple Ruby script:</p>
+        <p><code>puts "Hello, world!"</code></p>
+        <p>The HTML tag for code is:</p>
+        <p><code>&lt;code&gt;</code></p>
+
+      <h2>Keyboard Input</h2>
+
+        <p>To list files in a directory:</p>
+        <p><kbd>ls -1</kbd></p>
+
+      <h2>Date and Time</h2>
+
+        <p>The game will be <time datetime="2015-09-13 20:00">September 13</time>.</p>
+
+        <!-- YYYY-MM-DD HH:MM (24hr) -->
+
+      <h2>Simple Table</h2>
+
+        <table border="1">
+          <tr>
+            <th>University</th>
+            <th>Mascot</th>
+          </tr>
+          <tr>
+            <td>University of Florida</td>
+            <td>Albert Alligator</td>
+          </tr>
+          <tr>
+            <td>University of Miami</td>
+            <td>Sebastian the Ibis</td>
+          </tr>
+          <tr>
+            <td>University of California - Los Angeles</td>
+            <td>Joe Bruin</td>
+          </tr>
+        </table>
+
+      <h2>Complex Table</h2>
+
+        <table border="1">
+          <caption>Universities</caption>
+          <thead>
+            <tr>
+              <th>University</th>
+              <th>City</th>
+              <th>State</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Stanford<sup>*</sup></td>
+              <td>Stanford</td>
+              <td rowspan="2">California</td>
+            </tr>
+            <tr>
+              <td>California - Los Angeles</td>
+              <td>Los Angeles</td>
+            </tr>
+            <tr>
+              <td>Florida</td>
+              <td>Gainesville</td>
+              <td rowspan="2">Florida</td>
+            </tr>
+            <tr>
+              <td>Miami<sup>*</sup></td>
+              <td>Coral Gables</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"><sup>*</sup> private university</td>
+            </tr>
+          </tfoot>
+        </table>
+
+      <h2>Images</h2>
+
+        <img src="miami.jpg" alt="Walkway at University of Miami" />
+        <p>Walkway at University of Miami (Credit: Harrier233 / <a href="http://commons.wikimedia.org/wiki/File:University_of_Miami_Otto_G._Richter_Library.jpg"> Wikipedia </a>) </p>
+
   </body>
 </html>
