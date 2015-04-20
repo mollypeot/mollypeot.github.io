@@ -64,14 +64,15 @@ a:hover {
 }
 
 nav li a:link {
-  color: #FF7878;
-}
-
-nav li a:hover {
-  color: #FF7878;
+  color: #222;
+  text-decoration: underline;
 }
 
 nav li a:visited {
+  color: #222;
+}
+
+nav li a:hover {
   color: #FF7878;
 }
 
