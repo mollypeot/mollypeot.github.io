@@ -1,0 +1,32 @@
+@media (max-width: 320px) {
+  body {
+    background: #FFF;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #222;
+  }
+  nav li a {
+    font-size: 1.5em;
+  }
+
+  #container {
+    margin-top: 13em;
+    max-width: 304px;
+    min-width: 304px;
+    padding: 0.5em;
+  }
+
+  #container img {
+    height: 11.221875em;
+    width: 18em;
+  }
+
+  #containerb {
+    margin-top: 13em;
+    height: 15em;
+    max-width: 304px;
+    min-width: 304px;
+    padding: 0.5em;
+  }
+}
