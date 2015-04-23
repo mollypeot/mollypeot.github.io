@@ -6,12 +6,19 @@
     font-size: 16px;
     color: #222;
   }
+
+  nav ul {
+    position: fixed;
+    top: 0em;
+    left: 4em;
+      }
+
   nav li a {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   #container {
-    margin-top: 13em;
+    margin-top: 10em;
     max-width: 304px;
     min-width: 304px;
     padding: 0.5em;
@@ -23,7 +30,7 @@
   }
 
   #containerb {
-    margin-top: 13em;
+    margin-top: 10em;
     height: 15em;
     max-width: 304px;
     min-width: 304px;
