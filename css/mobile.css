@@ -21,7 +21,7 @@
     margin-top: 10em;
     max-width: 304px;
     min-width: 304px;
-    padding: 0.5em;
+    padding: 0em;
   }
 
   #container img {
@@ -34,6 +34,14 @@
     height: 15em;
     max-width: 304px;
     min-width: 304px;
-    padding: 0.5em;
+    padding: 0em;
+  }
+
+  #containerc {
+    margin-top: 10em;
+    height: 450px;
+    overflow: auto;
+    max-width: 300px;
+    min-width: 300px;
   }
 }

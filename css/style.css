@@ -45,6 +45,10 @@ nav li a:hover {
   /* Make it increase / bold */
 }
 
+h1 {
+  display: none;
+}
+
 #dropdown {
   position: relative;
 }
@@ -93,32 +97,40 @@ footer p {
   max-width: 900px;
   min-width: 350px;
   margin: 0 auto;
-  margin-top: 10em;
+  margin-top: 3em;
   padding: 1em;
   background: #fff;
 /*  border: 1px solid #222; */
   overflow: auto;
-  height: 450px;
+  height: 550px;
 }
 
 #containerb .harmony {
-  width: 18em;
-  height: 18em;
-  margin-left: .3em;
-  border: .1em solid #222;
+  width: 290px;
+  height: 290px;
+  display: block;
+  margin-right: 12px;
+  float: left;
+  border: 1px solid #222;
+}
+
+#containerb .harmony:last-child {
+  margin-right: 0;
 }
 
 #containerb h2 {
   text-align: center;
 }
 
+#event h2 {
+  margin-top: 14em;
+}
+
 .event {
-  width: 43.75em;
-  height: 28.6875em;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: .1em solid #222;
+  border: 1px solid #222;
   margin-bottom: .3em;
 }
 
@@ -145,6 +157,10 @@ footer p {
     #dropnav {
       position: absolute;
       left: -1em;
+    }
+    #containerb {
+      margin-top: 10em;
+      height: 450px;
     }
 }
 

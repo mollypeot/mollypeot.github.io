@@ -9,9 +9,59 @@ body {
   color: #222;
 }
 
-#container {
+img {
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  top: 1em;
+  left: -8.5em;
+}
+
+nav ul {
+  list-style-type: none;
+  position: fixed;
+  top: 12.5em;
+  left: -1.1em;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #222;
+  font-size: .8em;
+}
+
+nav li {
+  font-size: .8em;
+}
+
+nav li:visited,
+nav li a:visited {
+  color: #222;
+}
+
+nav li:hover,
+nav li a:hover {
+  font-size: 120%
+  /* Make it increase / bold */
+}
+
+#dropdown {
+  position: relative;
+}
+
+#dropnav {
+  position: absolute;
+  display: none;
+  top: 1.2em;
+}
+
+#dropdown:hover > #dropnav {
+  display: block;
+}
+
+#containerc {
   max-width: 700px;
-  min-width: 350px;
+  min-width: 320px;
   margin: 0 auto;
   padding: 1em;
   background: #fff;
@@ -40,39 +90,16 @@ h1 {
   text-align: center;
 }
 
-nav ul {
-  padding-left: 0;
-  text-align: center;
-}
-
-nav li {
-  display: inline;
-  padding: .5em;
-}
-
-a:link {
+h3 a:link {
   color: #222;
   text-decoration: none;
 }
 
-a:visited {
+h3 a:visited {
   color: #222;
 }
 
-a:hover {
-  color: #FF7878;
-}
-
-nav li a:link {
-  color: #222;
-  text-decoration: none;
-}
-
-nav li a:visited {
-  color: #222;
-}
-
-nav li a:hover {
+h3 a:hover {
   color: #FF7878;
 }
 
@@ -86,4 +113,29 @@ h3 {
 
 h4 {
   font-size: 1.1em;
+}
+
+@media (max-width: 1100px) {
+    nav ul {
+      position: fixed;
+      top: .6em;
+      left: 4em;
+        }
+    img {
+      position: fixed;
+      top: -6em;
+    }
+    #dropdown {
+      position: relative;
+    }
+    #dropnav {
+      position: absolute;
+      left: -1em;
+    }
+
+    #containerc {
+      margin-top: 10em;
+      height: 450px;
+      overflow: auto;
+    }
 }
