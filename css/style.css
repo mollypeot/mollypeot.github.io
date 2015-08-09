@@ -94,7 +94,7 @@ footer p {
 }
 
 #containerb {
-  max-width: 900px;
+  max-width: 700px;
   min-width: 350px;
   margin: 0 auto;
   margin-top: 3em;
@@ -102,28 +102,23 @@ footer p {
   background: #fff;
 /*  border: 1px solid #222; */
   overflow: auto;
-  height: 550px;
 }
 
 #containerb .harmony {
-  width: 290px;
-  height: 290px;
-  display: block;
-  margin-right: 12px;
-  float: left;
+  width: 500px;
+  height: 500px;
   border: 1px solid #222;
+  margin-left: 100px;
 }
 
-#containerb .harmony:last-child {
-  margin-right: 0;
-}
+
 
 #containerb h2 {
   text-align: center;
 }
 
 #event h2 {
-  margin-top: 14em;
+
 }
 
 .event {
