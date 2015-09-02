@@ -7,41 +7,4 @@
     color: #222;
   }
 
-  nav ul {
-    position: fixed;
-    top: 0em;
-    left: 4em;
-      }
-
-  nav li a {
-    font-size: 1.2em;
-  }
-
-  #container {
-    margin-top: 10em;
-    max-width: 304px;
-    min-width: 304px;
-    padding: 0em;
-  }
-
-  #container img {
-    height: 11.221875em;
-    width: 18em;
-  }
-
-  #containerb {
-    margin-top: 10em;
-    height: 15em;
-    max-width: 304px;
-    min-width: 304px;
-    padding: 0em;
-  }
-
-  #containerc {
-    margin-top: 10em;
-    height: 450px;
-    overflow: auto;
-    max-width: 300px;
-    min-width: 300px;
-  }
-}
+  
