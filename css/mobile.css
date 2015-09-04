@@ -1,10 +1,18 @@
-@media (max-width: 320px) {
+@media (max-width: 900px) {
   body {
     background: #FFF;
     font-family: 'Arimo', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     color: #222;
   }
 
-  
+  body p {
+    font-size: 24px;
+    margin-top: 10em; 
+  }
+
+  footer p {
+    font-size: .7em;
+  }
+}
