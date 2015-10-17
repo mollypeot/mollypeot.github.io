@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,greek-ext);
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+ text-align: center;
+ font-size: 2.5em;
+}
+
+h1 a,
+h1 a:visited {
+  color: #222;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #4E5A65;
+}
+
+nav ul li {
+  display: inline;
+  padding: .5em;
+}
+
+nav ul {
+  text-align: center;
+  margin-right: 2.5em;
+  margin-bottom: 2em;
+}
+
+nav ul li a,
+nav ul li a:visited,
+ul li a,
+ul li a:visited {
+  color: #222;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+ul li a:hover {
+  color: #4E5A65;
+}
+
+.textContainer {
+  text-align: center;
+  margin-top: 10em;
+}
+
+.text {
+  font-size: 3em;
+}
+
+/* footer */
+
+footer p {
+  position: fixed;
+  bottom: 0em;
+  right: 0em;
+  font-size: .75em;
+}
