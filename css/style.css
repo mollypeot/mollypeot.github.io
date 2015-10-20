@@ -61,3 +61,20 @@ footer p {
   right: 0em;
   font-size: .75em;
 }
+
+/* mobile iPhone 5 */
+
+@media (max-width: 324px) {
+
+  nav ul {
+    text-align: center;
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
+
+  .textContainer {
+    text-align: center;
+    margin-top: 7em;
+  }
+
+}
