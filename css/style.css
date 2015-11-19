@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,greek-ext);
 
 body {
@@ -44,6 +45,8 @@ ul li a:hover {
   color: #4E5A65;
 }
 
+/*index page*/
+
 .textContainer {
   text-align: center;
   margin-top: 10em;
@@ -77,4 +80,158 @@ footer p {
     margin-top: 7em;
   }
 
+}
+
+/*sneaker page*/
+
+.story {
+  width: 60em;
+  margin: auto;
+  position: relative;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+  text-align: right;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+}
+
+#note {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+img {
+  display: none;
+}
+
+#mymap {
+  height: 48em;
+  width: 60em;
+  margin: auto;
+  border: solid #000;
+  overflow: hidden;
+  position: relative;
+}
+
+#lalakers {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 25em;
+  left: 1em;
+  z-index: 1;
+}
+
+#miami {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 5em;
+  right: 3em;
+  z-index: 1;
+}
+
+#lebron {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 14em;
+  right: 10em;
+  z-index: 1;
+}
+
+#kyrie {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 30em;
+  right: 10em;
+  z-index: 1;
+}
+
+#chicago {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 8em;
+  left: 28em;
+  z-index: 1;
+}
+
+#golden {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 8em;
+  left: .5em;
+  z-index: 1;
+}
+
+#laclippers {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 18em;
+  left: 1em;
+  z-index: 1;
+}
+
+#nyc {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 5em;
+  right: 3em;
+  z-index: 1;
+}
+
+#okc {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 20em;
+  left: 20em;
+  z-index: 1;
+}
+
+#portland {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  z-index: 1;
+}
+
+#washington {
+  display: none;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 20em;
+  right: 1em;
+  z-index: 1;
 }
