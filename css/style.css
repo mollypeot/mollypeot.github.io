@@ -85,7 +85,7 @@ footer p {
 /*sneaker page*/
 
 .story {
-  width: 60em;
+  width: 950px;
   margin: auto;
   position: relative;
 }
@@ -125,7 +125,7 @@ img {
 
 #mymap {
   height: 48em;
-  width: 60em;
+  width: 950px;
   margin: auto;
   border: solid #000;
   overflow: hidden;
