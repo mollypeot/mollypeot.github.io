@@ -92,20 +92,17 @@ footer p {
 
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  font-size: 36px;
+  font-size: 34px;
 }
 
 h3 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
-  text-align: right;
 }
 
 h4 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 14px;
-  text-align: right;
 }
 
 p {
