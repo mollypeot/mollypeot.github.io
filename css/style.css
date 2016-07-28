@@ -89,13 +89,25 @@ footer p {
 
   nav ul {
     text-align: center;
-    margin-right: 2em;
-    margin-bottom: 2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
 
   .textContainer {
     text-align: center;
     margin-top: 7em;
+  }
+
+  #info {
+    width: 310px;
+    margin: auto;
+    position: relative;
+  }
+
+  #resume img {
+    display: block;
+    margin: auto;
+    width: 310px;
   }
 
 }
