@@ -1,113 +1,92 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,greek-ext);
+@import url('https://fonts.googleapis.com/css?family=Dosis|Ranga');
 
 body {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
+font-family: 'Ranga', cursive;
+font-family: 'Dosis', sans-serif;
+}
+
+#container {
+  width: 75%;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  border-bottom: 1px solid #222;
 }
 
 h1 {
- text-align: center;
- font-size: 2.5em;
+  font-family: 'Ranga';
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 h1 a,
-h1 a:visited {
-  color: #222;
-  text-decoration: none;
-}
-
-h1 a:hover {
-  color: #4E5A65;
-}
-
-nav ul li {
-  display: inline;
-  padding: .5em;
-}
-
-nav ul {
-  text-align: center;
-  margin-right: 2.5em;
-  margin-bottom: 2em;
-}
-
+h1 a:visited,
 nav ul li a,
-nav ul li a:visited,
-p a,
-p a:visited {
+nav ul li a:visited {
   color: #222;
   text-decoration: none;
 }
+nav {
+  margin: 0;
+  padding-bottom: .25px;
+  padding-right: 45px;
+  text-align: center;
 
-nav ul li a:hover,
-p a:hover {
-  color: #4E5A65;
 }
 
-/* footer */
-
-footer p {
-  position: fixed;
-  bottom: 0em;
-  right: 0em;
-  font-size: .75em;
+nav li {
+  display: inline;
 }
 
-/* about */
-
-#info {
-  width: 600px;
-  margin: auto;
-  position: relative;
+nav a {
+  display: inline;
+  padding: 2px;
 }
 
-#stuff {
-  width: 225px;
-  margin: auto;
-  position: relative;
+nav ul li a:hover {
+  border-bottom: 1px solid #FF69B4;
 }
 
-#stuff ul {
-  list-style-type: none;
+/* main */
+
+h2 {
+  font-size: 20px;
 }
 
-#resume img {
+/* resume */
+
+img {
+  max-width: 100%;
+  max-height: 100%;
   display: block;
   margin: auto;
-  width: 500px;
-
 }
 
+/* contact */
 
+p a {
+  color: #222;
+  text-decoration: none;
+}
 
-
-
+p a:hover {
+  border-bottom: 1px solid #FF69B4;
+}
 
 /* mobile iPhone 5 */
 
 @media (max-width: 324px) {
 
-  nav ul {
-    text-align: center;
-    margin-right: 1em;
-    margin-bottom: 1em;
+  h1 {
+    font-size: 40px;
   }
 
-  .textContainer {
-    text-align: center;
-    margin-top: 7em;
-  }
-
-  #info {
-    width: 310px;
-    margin: auto;
-    position: relative;
-  }
-
-  #resume img {
-    display: block;
-    margin: auto;
-    width: 310px;
+  nav ul li a {
+    font-size: 12px;
   }
 
 }
